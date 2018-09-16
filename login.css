@@ -1,0 +1,55 @@
+/* Bordered form */
+body{
+  background-image:url("blue.jpg")
+}
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0px 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#login-bt {
+  background-color:#c9dce0;
+}
+
+#signUp-bt {
+  background-color:#b1eefc;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* Avatar image */
+.logo {
+    margin-left:45%;
+    width: 10%;
+    border-radius: 50%;
+}
+
+
+/* Add padding to containers */
+.container {
+    padding-left: 20%;
+    padding-right: 20%;
+}

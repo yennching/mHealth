@@ -1,0 +1,19 @@
+body{background-color: }
+.option{
+  background-color: #B3E5FC;
+  height:350px;
+  margin-top: 200px;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+div.option{
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.header{
+  margin-top: 170px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
