@@ -1,9 +1,14 @@
+body{
+  background-image: url("https://s22.postimg.cc/ysk7c958h/blue-close-up-concrete-304664.jpg"); 
+}
 .container{
   margin-top: 100px;
   height: 450px;
   width: 60%;
-  background-image: url("https://s22.postimg.cc/ysk7c958h/blue-close-up-concrete-304664.jpg");
   margin-left: 20%;
+  border-style: double;
+  border-color: white;
+  border-width:10px;
   
 }
 
@@ -29,18 +34,16 @@
 }
 
 button {
-    background-color: white;
     color: black;
     padding: 14px 20px;
-    margin: 8px 0x 10px;
+    margin: 8px 0px 10px;
     border: none;
     cursor: pointer;
-    margin: 10px;
+    margin: -6px;
+   background-image: url("https://s22.postimg.cc/3zw2z08cx/marble-surface-wall-1323712.jpg");
 }
 
-#nxt-bt{
+.nxt-bt{
   float:right;
-  width:30%;
+  width:20%;
 }
-
-input[type='radio'] { transform: scale(2); }

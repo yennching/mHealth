@@ -18,7 +18,7 @@
     <input type="password" name = "password" placeholder="Enter Password" id="password">
   
   <div class="row">
-    <button type="submit" id ="login-bt" class="col" onclick="login()">Login</button>
+    <button type="submit" id ="login-bt" class="col" name="submit_li" onclick="login()">Login</button>
     <button type="submit" name = "submit_su" id="signUp-bt" onclick="signUp()" class="col">Sign Up</button>
   </div>
   </form>

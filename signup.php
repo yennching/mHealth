@@ -1,6 +1,35 @@
 <?php
+$login=0;
+if(isset($_POST['submit_li']) && $login == true){
+    $login++;
+}
+ else if(isset($_POST['submit_li']) && $login > 1) {
+      include_once 'dbh.php';
+      // username and password sent from form 
+      
+      $username = mysqli_real_escape_string($con, $_POST['username']);
+      $password = mysqli_real_escape_string($con, $_POST['password']); 
+      
+      $sql = "SELECT user_id FROM userslumo WHERE username = '$username' and pwd = '$password';";
+      $result = mysqli_query($con, $sql);
+      $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+      $active = $row['active'];
+      
+      $count = mysqli_num_rows($result);
+      
+      // If result matched $myusername and $mypassword, table row must be 1 row
+		
+      if($count > 0) {
+         session_start();
+         $_SESSION['username'] = $username;
+         header("location: option_pg.php");
+      }else {
+         $error = "Your Login Name or Password is invalid";
+      }
 
-if (isset($_POST['submit_su'])){
+ }
+
+else if (isset($_POST['submit_su'])){
     include_once 'dbh.php';
 
 

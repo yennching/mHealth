@@ -1,0 +1,50 @@
+.progress {
+  margin-top: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.test {
+  margin-top: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  font-size: 25px;
+  margin-top: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inputBar {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 50px;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.bottomdiv {
+  padding-bottom: 50px;
+}
+
+button {
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0px 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+  

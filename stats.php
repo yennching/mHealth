@@ -22,11 +22,5 @@ while($row = mysqli_fetch_assoc($records)){
     array_push($date, $row['date']);
 }
 
-// debug:
-print_r($happy); // show all array data
-print_r($date); // show all array data
-print_r($phys); // show all array data
-print_r($social); // show all array data
-print_r($vice); // show all array data
 
 ?>

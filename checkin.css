@@ -1,0 +1,51 @@
+body{
+  background-image: url("https://s22.postimg.cc/ysk7c958h/blue-close-up-concrete-304664.jpg");
+    
+}
+
+.container{
+  background-color: white;
+  opacity:0.8;
+  margin:auto;
+  margin-top: 50px;
+  height:600px;
+  width:800px;
+}
+
+.row1 {
+  margin-left: 50px;
+  margin-top:50px;
+  font-size: 150%;
+}
+
+.row2 {
+  margin-left: 50px;
+  font-size: 150%;
+}
+
+.bullet {
+  margin-left: 80px;
+  font-size: 18px;
+  line-height:1.2
+}
+
+.row3 {
+  margin-left: 50px;
+  font-size: 150%;
+  line-height:1.2;
+}
+
+.line {
+  line-height:0;
+}
+
+.row4 {
+  margin-left: 50px;
+  font-size: 150%;
+  line-height:1.2;
+}
+
+.end {
+  text-align: center;
+  font-size:200%;
+}

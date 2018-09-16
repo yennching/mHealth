@@ -1,0 +1,41 @@
+body{
+  background-image: url("https://s22.postimg.cc/ysk7c958h/blue-close-up-concrete-304664.jpg")
+}
+
+button{
+  background-color: transparent;
+  display: inline-block;
+  text-align: center;
+  color: black;
+  font-size: 150%;
+  opacity:0.8;
+  padding: 14px 20px;
+  border: solid;
+  border-color: white;
+  cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.container {
+  margin-left:100px;
+}
+
+.graph {
+  margin-left:200px;
+}
+
+.well {
+  margin-left:300px;
+}
+
+.months{
+  margin-left:90px;
+}
+
+.round {
+    font-size: 20px;
+    margin: 30px;
+}

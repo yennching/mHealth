@@ -12,8 +12,8 @@ function user(id, name, pass) {
 
 //sign up change
 function signUp() {
-    document.getElementById("signUp-bt").style.backgroundColor = "#6899e8";
-    document.getElementById("login-bt").style.backgroundColor = "#a3a3a3";
+    document.getElementById("signUp-bt").style.backgroundColor = "#b1eefc";
+    document.getElementById("login-bt").style.backgroundColor = "#c9dce0";
     document.getElementById('su-name').style.display = "";
     name = document.getElementById("name").value;
     username = document.getElementById("username").value;
@@ -22,8 +22,8 @@ function signUp() {
 }
 
 function login() {
-    document.getElementById("signUp-bt").style.backgroundColor = "#a3a3a3";
-    document.getElementById("login-bt").style.backgroundColor = "#6899e8";
+    document.getElementById("signUp-bt").style.backgroundColor = "#c9dce0";
+    document.getElementById("login-bt").style.backgroundColor = "#b1eefc";
     document.getElementById('su-name').style.display = 'none';
     username = document.getElementById("username").value;
     password = document.getElementById("password").value;
